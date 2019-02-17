@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- css file -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive stylesheet -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Title -->
+<title>Locação - Objetos Decorativos</title>
+<!-- Favicon -->
+<link href="images/Loc-Festas_Icone.png" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+<link href="images/Loc-Festas_Icone.png" sizes="128x128" rel="shortcut icon" />
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<div class="wrapper">
+	<!-- Header Styles -->
+	<header class="header-nav">
+		<div class="main-header-nav navbar-scrolltofixed">
+			<div class="container">
+			    <nav class="navbar navbar-default bootsnav menu-style1">
+			        <div class="container ulockd-pdng0">
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand ulockd-main-logo2" href="index.html">
+			                    <img src="images/logo_pronto.png" class="logo logo-scrolled" alt="">
+			                </a>
+			            </div>
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse pad330-md" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-left" data-in="flipInX">
+			                    <li class="dropdown">
+			                        <a href="index.html">Home</a>
+			                    </li>
+			                    <li class="dropdown">
+			                        <a class="dropdown-toggle" data-toggle="dropdown">Decoração</a>
+			                        <ul class="dropdown-menu">
+										<li><a href="galeria_festa_infantil.html" target="_blank">Festa Infantil</a></li>
+										<li><a href="galeria_festa_pijama.html" target="_blank">Festa do Pijama</a></li>
+										<li><a href="galeria_festa_pocket.html" target="_blank">Festa Pocket</a></li>
+										<li><a href="galeria_festa_adulto.html" target="_blank">Festa Adulto</a></li>
+										<li><a href="galeria_festa_tematica.html" target="_blank">Festa Temática</a></li>
+										<li><a href="galeria_mini_wedding.html" target="_blank">Mini Wedding</a></li>
+										<li><a href="galeria_casamento.html" target="_blank">Casamento</a></li>
+			                        </ul>
+			                    </li>
+			                    <li class="dropdown">
+			                        <a class="dropdown-toggle" data-toggle="dropdown">Locação</a>
+			                        <ul class="dropdown-menu">
+										<li><a href="galeria_pegue_monte.html" target="_blank">Pegue e Monte</a></li>
+										<li><a href="galeria_moveis.html" target="_blank">Móveis</a></li>
+										<li><a href="galeria_loucas.html" target="_blank">Louças</a></li>
+										<li><a href="#">Objetos Decorativos</a></li>
+			                        </ul>
+			                    </li>
+			                    <li class="dropdown">
+		                        <a href="galeria_brinquedos.html" class="dropdown" target="_blank">Brinquedos</a>
+		                    	</li>
+			                    <li class="dropdown">
+                                <a href="formulario.html" target="_blank">Contato</a>
+                            	</li>
+
+                            	<li><a href="https://www.facebook.com/locfestasnit" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="https://www.instagram.com/locfestasnit/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                        <li><a href="https://br.pinterest.com/locfestasnit/"><i class="fa fa-pinterest" target="_blank"></i></a></li>
+
+			                </ul>
+							<ul class="ulockd-quote-btn pull-right hidden-xs hidden-sm">
+				                <li><a data-animation="animated bounceInUp" href="#rsvp_forms" data-toggle="modal" class="btn btn-lg ulockd-btn-thm2 hidden-xs bdrs20" title="CLick On It">FAÇA SUA FESTA</a></li>
+				            </ul>
+			            </div><!-- /.navbar-collapse -->
+			        </div>
+			    </nav>
+			</div>
+		</div>		
+	</header>
+
+
+<!-- Formulário -->
+					<div class="modal fade rsvp_forms" id="rsvp_forms">
+					    <div class="modal-dialog">
+					        <div class="modal-content">
+					            <div class="modal-header text-center">
+					                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+					                <h3 class="modal-title">Loc Festas</h3>
+					            </div>
+					            <div class="modal-body">
+					                <div class="row">
+					                    <div class="col-md-10 col-md-offset-1">
+											<!-- Formulário de Oçamento -->
+											<iframe style="display:none;" name="rsvp_form"></iframe>
+						                    <form id="rsvp_form" name="rsvp_form" class="rsvp_form text-left" method="post" novalidate="novalidate" action="email_process.php" target="rsvp_form">
+						                        <div class="messages"></div>
+						                        <div class="row">
+						                            <div class="col-xs-12 col-sm-12 col-md-12 text-center clearfix">
+											        	<h1 class="text-thm2 ff-engnmt">Entre em contato e faça o seu orçamento</h1>
+											        	<h5>Atendemos com hora marcada. Venha e faça a FESTA!</h5>
+						                            </div>
+						                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+						                                <div class="form-group">
+						                                    <label for="nome">Nome</label>
+						                                    <input id="nome" name="nome" class="form-control" placeholder="Digite seu nome">
+						                                </div>
+						                            </div>
+						                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+						                                <div class="form-group">
+														    <label for="decoracao">Decoração</label>
+														    <select class="form-control" id="decoracao" name="decoracao" placeholder="Selecione uma opção">
+														    	<option>Festa Infantil</option>
+														    	<option>Festa do Pijama</option>
+														    	<option>Festa Pocket</option>
+														    	<option>Festa Adulto</option>
+														    	<option>Festa Temática</option>
+														    	<option>Mini Wedding</option>
+														    	<option>Casamento</option>
+														    	<option>Outros (Favor especificar na mensagem)</option>
+														    	<option>Não desejo decoração</option>
+														    </select>
+														</div>
+						                            </div>
+						                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+						                                <div class="form-group">
+						                                    <label for="telefone">Telefone de Contato</label>
+						                                    <input type="text" class="form-control" id="telefone" name="telefone"  placeholder="Ex.: (00) 00000-0000">
+						                                </div>
+						                            </div>
+						                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+						                                <div class="form-group">
+														    <label for="locacao">Locação</label>
+														    <select class="form-control" id="locacao" name="locacao" placeholder="Selecione uma opção">
+														    	<option>Pegue e Monte</option>
+														    	<option>Móveis</option>
+														    	<option>Louças</option>
+														    	<option>Objetos Decorativos</option>
+														    	<option>Outros (Favor especificar na mensagem)</option>
+														    	<option>Não desejo locação</option>
+														    </select>
+														</div>
+						                            </div>
+						                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+						                                <div class="form-group">
+						                                    <label for="email">Email</label>
+						                                    <input id="email" name="email" type="text" class="form-control" placeholder="Digite um email para contato">
+						                                </div>
+						                            </div>
+						                            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 clearfix">
+						                                <div class="form-group">
+														    <label for="brinquedos">Brinquedos</label>
+														    <select class="form-control" id="brinquedos" name="brinquedos" placeholder="Selecione uma opção">
+														    	<option>Espaço Baby</option>
+														    	<option>Pula Pula</option>
+														    	<option>Outros (Favor especificar na mensagem)</option>
+														    	<option>Não desejo brinquedos</option>
+														    </select>
+														</div>
+						                            </div>
+						                            <div class="col-md-12">
+						                                <div class="form-group">
+						                                	<label for="mensagem">Digite aqui sua mensagem</label>
+						                                    <textarea id="mensagem" name="mensagem" class="form-control ulockd-form-tb required" rows="12" placeholder="Sua mensagem..." required="required" data-error="Message is required."></textarea>
+		                                					<div class="help-block with-errors"></div>
+						                                </div>
+						                            </div>
+						                        </div>
+						                        <div class="form-group text-center">
+						                            <input id="form_botcheck" name="form_botcheck" class="form-control" value="Enviar Mensagem" type="hidden">
+						                            <button type="submit" class="btn btn-lg ulockd-btn-thm2 bdrs20">Enviar</button>
+
+						                        </div>
+								            </form>
+					                    </div>
+					                </div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+					<!-- Formulário End-->
+
+
+	<!-- Galeria Fotos -->
+	<section class="ulockd-service-three">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
+					<div class="ulockd-main-title">
+						<h2>Galeria <span class="text-thm2">Objetos Decorativos</span></h2>
+						<p>Conheça nossos objetos para decoração.</p>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+	            <div class="col-md-12">
+	            
+	                <!-- Masonry Grid -->
+	                <div id="grid" class="masonry-gallery grid-4 mrgn10 clearfix">
+
+		               <!-- Foto 1 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/1_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/1.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 2 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/2_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/2.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 3 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/3_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/3.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 4 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/4_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/4.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 5 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/5_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/5.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 6 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/6_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/6.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 7 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/7_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/7.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 8 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/8_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/8.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 9 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/9_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/9.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 10 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/10_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/10.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 11 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/11_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/11.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 12 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/12_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/12.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+
+		                <!-- Foto 13 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/13_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/13.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 14 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/14_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/14.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 15 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/15_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/15.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+		                <!-- Foto 16 -->
+		                <div class="isotope-item creative corporate">
+		                    <div class="gallery-thumb">
+			                    <img class="img-responsive img-whp" src="images/galerias/objetos_decorativos/16_480.jpg" alt="project">
+			                    <div class="overlayer">
+									<div class="lbox-caption">
+										<div class="lbox-details">
+											
+											<ul class="list-inline">
+												<li>
+													<a class="popup-img" href="images/galerias/objetos_decorativos/16.JPG" title="Gallery Photos"><span class="flaticon-add-square-button"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+			                    </div>
+		                    </div>
+		                </div>
+
+
+
+
+
+
+
+		                
+		                <!-- Masonry = Masonry Item -->
+	                </div>
+	                <!-- Masonry Gallery Grid Item -->
+	            </div>
+            </div>
+		</div>
+	</section>
+<!-- End Galeria Fotos -->
+
+
+
+
+	<!-- Our Footer - Contato -->
+	<section id="contato" class="ulockd-footers bgc-overlay-white8 ulockd_bgi4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="footer-box text-center">
+						<h2 class="text-thm2">Loc Festas</h2>
+						<h1 class="text-thm2">Sonhe, imagine, realize!</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row ulockd-mrgn1250">
+				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+					<div class="about-box2 text-center wow fadeInUp" data-wow-duration="1s">
+						<div class="ab-thumb">
+							<div class="about-icon2 text-center"><i class="flaticon-map-marker"></i></div>
+						</div>
+						<div class="ab-details">
+							<h3>Localização</h3>
+							<p>Rua Visconde de Sepetiba, nº 105, Loja 01 <br> Centro - Niterói-RJ</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+					<div class="about-box2 text-center wow fadeInUp" data-wow-duration="1.3s">
+						<div class="ab-thumb">
+							<div class="about-icon2 text-center"><a href="formulario.html" target="_blank"><i class="flaticon-black-back-closed-envelope-shape"></i></a></div>
+						</div>
+						<div class="ab-details">
+							<h3>Contato</h3> 
+							<p><b>E-mail: </b>contato@locfestasnit.com.br <br> <b>Facebook: </b>locfestasnit <br> <b>Instagram: </b>@locfestasnit</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+					<div class="about-box2 text-center wow fadeInUp" data-wow-duration="1.6s">
+						<div class="ab-thumb">
+							<div class="about-icon2 text-center"><i class="flaticon-telephone-1"></i></div>
+						</div>
+						<div class="ab-details">
+							<h3>Ligue</h3>
+							<p>(21) 99775-3355 - Mari<br>(21) 99649-0054 - Carol<br>(21) 96454-8859 - Bia</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+<!-- Local -->
+
+<iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ0T0xhMCDmQARnr5qztgnC6U&key=AIzaSyD3pmDbTTjFEY2SXvdb2G00YOGu5GNFnks" allowfullscreen></iframe>
+
+<!-- Local End -->
+
+
+
+	<!-- Our CopyRight Section -->
+	<section class="ulockd-copy-right">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="color-white">Loc Festas Copyright© 2018. <a href="https://goo.gl/8HdP67" target="_blank">Desenvolvido por Igor Garcia. </a>Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<a class="scrollToHome ulockd-bgthm" href="#"><i class="fa fa-home"></i></a>
+</div>
+<!-- Wrapper End -->
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootsnav.js"></script>
+<script type="text/javascript" src="js/parallax.js"></script>
+<script type="text/javascript" src="js/scrollto.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/video-player.js"></script>
+<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/jquery.barfiller.js"></script>
+<script type="text/javascript" src="js/timepicker.js"></script>
+<script type="text/javascript" src="js/tweetie.js"></script>
+<!-- Custom script for all pages --> 
+<script type="text/javascript" src="js/color-switcher.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    $("#telefone").mask("(00) 00000-0000");
+    </script>
+<script type='text/javascript'>
+// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+new Photostack( document.getElementById( 'photostack-3' ), {
+    callback : function( item ) {
+        //console.log(item)
+    }
+});
+</script>
+
+    
+</body>
+
+
+</html>
